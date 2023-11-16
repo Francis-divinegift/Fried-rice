@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.app{
+    background-color: aquamarine;
+    min-height:100vh ;
+    display: flex;
+}
+.box1{
+    background-color: blue;
+    width: 60%;
+}
+.box2{
+     width: 40%;
+     height: 100vh;
+     background-color: blueviolet;
+
+     display: flex;
+     flex-direction: column;
+     justify-content: end;
+}
